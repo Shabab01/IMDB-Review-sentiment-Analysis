@@ -129,34 +129,9 @@ This project involves building a sentiment analysis model to classify IMDB movie
 2. **Access the application**:
     A link will be generated, which you can open in your web browser to interact with the sentiment analysis model.
 
-Structure
-
-```
-imdb-sentiment-analysis/
-│
-├── data/
-│   └── imdb_dataset.csv       # Dataset file
-│
-├── model/
-│   ├── model.h5               # Saved LSTM model
-│   └── tokenizer.pkl          # Saved tokenizer
-│
-├── notebooks/
-│   └── imdb_sentiment_analysis.ipynb # Jupyter notebook for EDA and model training
-│
-├── scripts/
-│   ├── train_model.py         # Script for data preparation and model training
-│   └── app.py                 # Script for running the web application
-│
-├── README.md                  # Project documentation
-├── requirements.txt           # Required packages
-└── LICENSE                    # License file
-```
-
 
 ## Acknowledgements
 - The dataset used in this project is from [Kaggle](https://www.kaggle.com/).
-- Thanks to the creators of TensorFlow, Keras, pandas, numpy, and Gradio for their excellent libraries.
 
 ## Contact
 For any questions or inquiries, please contact [shababahmed69@gmail.com].
