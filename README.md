@@ -84,7 +84,7 @@ This project involves building a sentiment analysis model to classify IMDB movie
 3. **Launching the Web Application**:
    - Launch the web application and generate a shareable link.
 
-## How to Run the Project
+
 
 ### Prerequisites
 
@@ -96,38 +96,6 @@ This project involves building a sentiment analysis model to classify IMDB movie
 - joblib
 - gradio
 
-### Installation
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/imdb-sentiment-analysis.git
-    cd imdb-sentiment-analysis
-    ```
-
-2. **Install the required packages**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Download the dataset**:
-    Place the `imdb_dataset.csv` file in the project directory.
-
-### Running the Model Training
-
-1. **Run the data preparation and model training script**:
-    ```bash
-    python train_model.py
-    ```
-
-### Running the Web Application
-
-1. **Run the web application script**:
-    ```bash
-    python app.py
-    ```
-
-2. **Access the application**:
-    A link will be generated, which you can open in your web browser to interact with the sentiment analysis model.
 
 
 ## Acknowledgements
